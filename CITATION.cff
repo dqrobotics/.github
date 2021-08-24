@@ -11,3 +11,21 @@ title: "DQ Robotics"
 version: 20.04
 date-released: 2021-08-11
 url: "https://github.com/dqrobotics/.github"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "V. Adorno"
+    given-names: "Bruno"
+    orcid: "https://orcid.org/0000-0002-5080-8724"
+  - family-names: "M. Marinho"
+    given-names: "Murilo"
+    orcid: "https://orcid.org/0000-0003-2795-9484"
+  doi: "10.1109/MRA.2020.2997920"
+  journal: "IEEE Robotics & Automation Magazine"
+  month: 9
+  start: 1 # First page number
+  end: 10 # Last page number
+  title: "DQ Robotics: a Library for Robot Modeling and Control"
+  issue: 3
+  volume: 28
+  year: 2021
