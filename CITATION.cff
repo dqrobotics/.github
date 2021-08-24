@@ -10,7 +10,7 @@ authors:
 title: "DQ Robotics"
 version: 20.04
 date-released: 2021-08-11
-url: "https://dqrobotics.github.io/"
+url: "https://github.com/dqrobotics/.github"
 preferred-citation:
   type: article
   authors:
@@ -29,3 +29,5 @@ preferred-citation:
   issue: 3
   volume: 28
   year: 2021
+  
+  
