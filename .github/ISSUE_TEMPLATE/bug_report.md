@@ -7,6 +7,14 @@ assignees: ''
 
 ---
 
+**************************
+### Acceptance of the Code of Conduct
+_Leave these in your bug report, read, and check them._ 
+- [ ] I understand that support for DQRobotics is given voluntarily. 
+- [ ] In understand that any possible response and its timeliness will be based on the relevance, accuracy, and politeness of my request and the following discussion.
+- [ ] If a DQRobotics member replies, I will let them know, politely, if their response solves my issue or not. 
+*************************
+
 **Bug description**
 - A clear and concise description of what the bug is.
 
