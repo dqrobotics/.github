@@ -28,6 +28,10 @@ python3 -m pip install dqrobotics
 
 Installation instructions for C++11, MATLAB, and interface packages are available at the project's [readthedocs](https://dqroboticsgithubio.readthedocs.io).
 
+### Learn
+
+- MATLAB Course: [Kinematic modeling and control of serial-link robotic manipulators using DQ Robotics: From zero to hero](https://github.com/dqrobotics/learning-dqrobotics-in-matlab/tree/master/robotic_manipulators).
+
 ### Citation
 
 If you have used this library as part of your academic work, cite it as follows
