@@ -1,13 +1,12 @@
 ---
 name: Question
-about: Use the "Discussions Q&A" instead!
+about: Use the [Discussions Q&A](https://github.com/orgs/dqrobotics/discussions/categories/q-a) instead!
 title: "[QUESTION]"
 labels: question
 assignees: ''
 
 ---
 
-### WHERE TO ASK QUESTIONS
+### USE THE [DISCUSSIONS Q&A](https://github.com/orgs/dqrobotics/discussions/categories/q-a) INSTEAD
 
-Instead of opening an issue, use the 
-[DISCUSSIONS Q&A](https://github.com/orgs/dqrobotics/discussions/categories/q-a)
+USE THE [DISCUSSIONS Q&A](https://github.com/orgs/dqrobotics/discussions/categories/q-a) INSTEAD
