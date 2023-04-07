@@ -8,14 +8,12 @@ assignees: ''
 ---
 
 **************************
-### Acceptance of the Code of Conduct
-_Leave these in your question, read, check, and only post if you agree with all of them._ 
-
-I understand that:
-- [ ] Support for DQRobotics is given voluntarily and it's not the developers' role to educate and/or convince me of their vision.
-- [ ] Any possible response and its timeliness will be based on the relevance, accuracy, and politeness of my request and the following discussion.
-- [ ] If a DQRobotics member replies, I must let them know if their response solves my issue or not. 
-- [ ] Any suggestion/advice/request I make, as well intentioned as they might be, might not be incorporated into DQRobotics.
+### Code of Conduct
+_By submitting this report you automatically agree that you've read and accepted the following conditions._ 
+- Support for DQ Robotics is given voluntarily and it's not the developers' role to educate and/or convince anyone of their vision.
+- Any possible response and its timeliness will be based on the relevance, accuracy, and politeness of a request and the following discussion.
+- If a DQRobotics member replies, the user must let them know if their response solves their issue or not. 
+- Any suggestion/advice/request made by anyone, as well intentioned as they might be, might not be incorporated into DQ Robotics.
 *************************
 
 **Describe the missing/unexpected functionality**
