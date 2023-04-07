@@ -1,6 +1,6 @@
 ---
 name: Question
-about: Use the [Discussions Q&A](https://github.com/orgs/dqrobotics/discussions/categories/q-a) instead!
+about: Use the Discussions Q&A instead!
 title: "[QUESTION]"
 labels: question
 assignees: ''
