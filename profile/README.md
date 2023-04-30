@@ -55,3 +55,11 @@ url = {https://ieeexplore.ieee.org/document/9136790/},
 year = {2021}
 }
 ```
+
+### Contributing
+
+DQ Robotics is a standalone, fully moderated open-source library, with a core developer team who determines the directions of new developments. To ensure quality control, the team follows a scrict procedure for new pull requests, described [here](https://github.com/dqrobotics/matlab/blob/master/CONTRIBUTING.md). 
+
+Anyone wanting to propose a new modification or introduce new functionality should reach out to the team first, as proposed modifications that do not comply with the development philosophy and style, do not follow the library's architecture, don't introduce a clear and general benefit to the library other than to the person who proposed the modification will likely be rejected with no further discussion.
+
+Good places to initiate such a discussion might be in the [discussion forum](https://github.com/orgs/dqrobotics/discussions).
