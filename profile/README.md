@@ -5,17 +5,9 @@ DQ Robotics is a standalone open-source [(LGPLv3)](https://www.gnu.org/licenses/
 
 ### Quick Start (Python)
 
-#### User-wide installation 
-
-If you have no idea what a virtual enviroment means, this is probably for you.
-
-```bash
-python3 -m pip install --user dqrobotics
-```
-
 #### Isolated installation
 
-It is a good practice to isolate projects using `venv` whenever you can.
+Enviroments such as `pip` have started to enforce the use of isolated enviroments, such as `venv`.
 
 ```bash
 python3 -m venv venv
@@ -23,13 +15,25 @@ source venv/bin/activate
 python3 -m pip install dqrobotics
 ```
 
+#### User-wide installation 
+
+🧨 If you attempt to install outside of a `venv`, you will get the following 
+```
+error: externally-managed-environment
+...
+hint: See PEP 668 for the detailed specification.
+```
+See how to address that [here](https://stackoverflow.com/questions/75608323/how-do-i-solve-error-externally-managed-environment-every-time-i-use-pip-3).
+ 
 ### Documentation
 
 Installation instructions for C++11, MATLAB, and interface packages are available at the project's [readthedocs](https://dqroboticsgithubio.readthedocs.io).
 
 ### Learn
 
-- MATLAB Course: [Kinematic modeling and control of serial-link robotic manipulators using DQ Robotics: From zero to hero](https://github.com/dqrobotics/learning-dqrobotics-in-matlab/tree/master/robotic_manipulators).
+#### Kinematic modeling and control of serial-link robotic manipulators using `dqrobotics`: From zero to hero
+- [MATLAB Course](https://github.com/dqrobotics/learning-dqrobotics-in-matlab/tree/master/robotic_manipulators).
+- [Python Course](https://marinholab.github.io/OpenExecutableBooksRobotics//readme-2).
 
 ### Questions?
 Whether you are a beginner or advanced user, you're welcome to ask and answer questions about how to use the library, etc. in our [Q&A section](https://github.com/orgs/dqrobotics/discussions/categories/q-a). Before you ask a new question, we ask members to skim through the forum to verify if their question has already been answered.
