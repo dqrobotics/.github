@@ -1,23 +1,44 @@
-## DQ Robotics
+# DQ Robotics
 
 DQ Robotics is a standalone open-source [(LGPLv3)](https://www.gnu.org/licenses/lgpl-3.0.html) library for robot modelling and control. It provides [dual quaternion algebra](http://en.wikipedia.org/wiki/Dual_quaternion) and kinematic calculation algorithms in Python3, Matlab, and C++11.
 
 
-### Quick Start (Python)
+## Quick Start (Python)
 
-#### Isolated installation
+### Isolated installation
+
+> [!IMPORTANT]
+> Most systems will return errors if you do not use a `venv`.
 
 Enviroments such as `pip` have started to enforce the use of isolated enviroments, such as `venv`.
 
 ```bash
 python3 -m venv venv
 source venv/bin/activate
+```
+
+### Installing
+
+```bash
 python3 -m pip install dqrobotics
 ```
 
-#### User-wide installation 
+### Interfaces
 
-🧨 If you attempt to install outside of a `venv`, you will get the following 
+> [!IMPORTANT]
+> Since [8d8eb88](https://github.com/dqrobotics/python/commit/8d8eb88a33bea49324eae5cdaba4b4b1c5c06a2f), interface packages have been split away from the main library.
+
+If, for instance, `DQ_CoppeliaSimInterfaceZMQ` is needed, instal it as follows.
+
+```bash
+python3 -m pip install dqrobotics-interface-coppeliasim-zmq
+```
+
+### User-wide installation 
+
+> [!CAUTION]
+> If you attempt to install outside of a `venv`, you will get an error in most systems.
+
 ```
 error: externally-managed-environment
 ...
@@ -25,20 +46,20 @@ hint: See PEP 668 for the detailed specification.
 ```
 See how to address that [here](https://stackoverflow.com/questions/75608323/how-do-i-solve-error-externally-managed-environment-every-time-i-use-pip-3).
  
-### Documentation
+## Documentation
 
 Installation instructions for C++11, MATLAB, and interface packages are available at the project's [readthedocs](https://dqroboticsgithubio.readthedocs.io).
 
-### Learn
+## Learn
 
-#### Kinematic modeling and control of serial-link robotic manipulators using `dqrobotics`: From zero to hero
+### Kinematic modeling and control of serial-link robotic manipulators using `dqrobotics`: From zero to hero
 - [MATLAB Course](https://github.com/dqrobotics/learning-dqrobotics-in-matlab/tree/master/robotic_manipulators).
-- [Python Course](https://marinholab.github.io/OpenExecutableBooksRobotics//readme-2).
+- [Python Course](https://marinholab.github.io/OpenExecutableBooksRobotics).
 
-### Questions?
+## Questions?
 Whether you are a beginner or advanced user, you're welcome to ask and answer questions about how to use the library, etc. in our [Q&A section](https://github.com/orgs/dqrobotics/discussions/categories/q-a). Before you ask a new question, we ask members to skim through the forum to verify if their question has already been answered.
 
-### Citation
+## Citation
 
 If you have used this library as part of your academic work, cite it as follows
 ```bibtex
@@ -60,7 +81,7 @@ year = {2021}
 }
 ```
 
-### Contributing
+## Contributing
 
 DQ Robotics is a standalone, fully moderated open-source library, with a core developer team who determines the directions of new developments. To ensure quality control, the team follows a scrict procedure for new pull requests, described [here](https://github.com/dqrobotics/matlab/blob/master/CONTRIBUTING.md). 
 
