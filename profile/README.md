@@ -56,7 +56,7 @@ Installation instructions for C++11, MATLAB, and interface packages are availabl
 
 ### Kinematic modeling and control of serial-link robotic manipulators using `dqrobotics`: From zero to hero
 - [MATLAB Course](https://github.com/dqrobotics/learning-dqrobotics-in-matlab/tree/master/robotic_manipulators).
-- [Python Course](https://marinholab.github.io/OpenExecutableBooksRobotics).
+- [Python Course](https://marinholab.github.io/oxbr_dq_robotics_lessons/).
 
 ## Questions?
 Whether you are a beginner or advanced user, you're welcome to ask and answer questions about how to use the library, etc. in our [Q&A section](https://github.com/orgs/dqrobotics/discussions/categories/q-a). Before you ask a new question, we ask members to skim through the forum to verify if their question has already been answered.
